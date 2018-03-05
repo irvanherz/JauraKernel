@@ -7,15 +7,14 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jaura Kernel Development Page"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+url                      : https://irvanherz.github.io"
+baseurl                  : "JauraKernel"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : false
 words_per_minute         : 160
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 comments:
@@ -80,10 +79,10 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Mahasiswa penikmat teknologi yang nyasar perikanan"
+  location         : "Malang"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : 
   email            :
   uri              :
   bitbucket        :
@@ -92,10 +91,10 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "irvanherz"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "irvan_herz"
   lastfm           :
   linkedin         :
   orcid            : "http://orcid.org/yourorcidurl"
@@ -104,7 +103,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "irvan_herz"
   vine             :
   weibo            :
   xing             :
@@ -203,41 +202,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _tutorial
   - scope:
       path: ""
-      type: teaching
+      type: tutorial
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
