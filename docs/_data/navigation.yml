@@ -1,0 +1,10 @@
+# documentation links
+docs:
+  - title: Tutorial OSDEV Indonesia
+    children:
+      - title: "Dasar"
+        url: /docs/tutorial/dasar.md
+      - title: "Bootloader"
+        url: /docs/tutorial/bootloader.md
+      - title: "GRUB"
+        url: /docs/tutorial/grub.md
