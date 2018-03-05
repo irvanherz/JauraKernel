@@ -1,12 +1,3 @@
----
-permalink: /
-title: "Home"
-excerpt: "About Jaoura Kernel Project"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
 # Selamat Datang di Situs Pengembangan OS Indonesia
 
 >**_Penulisan dokumen ini diprakarsai oleh Muhammad Irvan Hermawan dari perkumpulan OSDev_ID (Programmer OS Indonesia)_**
